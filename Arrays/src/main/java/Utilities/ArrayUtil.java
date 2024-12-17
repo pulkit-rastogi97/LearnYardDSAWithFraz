@@ -1,3 +1,8 @@
+package Utilities;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class ArrayUtil {
@@ -11,5 +16,9 @@ public class ArrayUtil {
             arr[i] = scanner.nextInt();
         }
         return arr;
+    }
+
+    public static void printArray(int[] arr){
+        System.out.println(Arrays.toString(arr));
     }
 }

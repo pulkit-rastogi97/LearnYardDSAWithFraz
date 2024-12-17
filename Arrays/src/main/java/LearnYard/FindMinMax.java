@@ -1,3 +1,6 @@
+package LearnYard;
+
+import Utilities.ArrayUtil;
 
 public class FindMinMax {
     public static void main(String[] args) {
